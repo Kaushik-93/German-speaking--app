@@ -1,0 +1,27 @@
+{
+  "name": "sprechen",
+  "version": "1.0.0",
+  "description": "Speak German fluently: daily speaking practice PWA with an AI conversation partner",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc -p . && vite build",
+    "preview": "vite preview --host"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaushik-93/German-speaking--app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kaushik-93/German-speaking--app/issues"
+  },
+  "homepage": "https://github.com/Kaushik-93/German-speaking--app#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.10.0"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  },
+  "type": "module",
+  "private": true
+}
